@@ -57,3 +57,11 @@ Output:
 	  }
 	}
     
+
+## amazon-auth-header.go
+
+    go run amazon-auth-header.go
+
+Output:
+
+    Authorization: AWS AKIAIOSFODNN7EXAMPLE:bWq2s1WEIj+Ydj0vQ697zp+IXMU=	
