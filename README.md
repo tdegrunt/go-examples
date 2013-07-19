@@ -65,3 +65,16 @@ Output:
 Output:
 
     Authorization: AWS AKIAIOSFODNN7EXAMPLE:bWq2s1WEIj+Ydj0vQ697zp+IXMU=	
+
+## readlines.go
+
+Starting with go 1.1 the best way to read a file, line-by-line, is using a Scanner.
+
+    printf "line1\nline2\nline3" > /tmp/test.txt
+	go run readlines.go
+
+Output:
+
+    line1
+	line2
+	line3
